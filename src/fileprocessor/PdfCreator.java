@@ -39,6 +39,7 @@ public class PdfCreator {
             Font.NORMAL);
 
     public static void createPdf(String content, String fileName) {
+        System.out.println("PR2");
         try {
             Document document = new Document();
             PdfWriter.getInstance(document, new FileOutputStream(fileName));
