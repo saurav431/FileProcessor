@@ -40,6 +40,7 @@ public class PdfCreator {
 
     public static void createPdf(String content, String fileName) {
         System.out.println("PR2");
+        System.out.println("creating pdf");
         try {
             Document document = new Document();
             PdfWriter.getInstance(document, new FileOutputStream(fileName));
