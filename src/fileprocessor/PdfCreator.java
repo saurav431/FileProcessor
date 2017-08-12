@@ -42,6 +42,7 @@ public class PdfCreator {
         System.out.println("PR2");
         System.out.println("creating pdf");
         System.out.println("test2");
+        System.out.println("test3");
         try {
             Document document = new Document();
             PdfWriter.getInstance(document, new FileOutputStream(fileName));
