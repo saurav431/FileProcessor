@@ -28,6 +28,7 @@ public class FileProcessorUi extends javax.swing.JFrame {
      * Creates new form FileProcessorUi
      */
     public FileProcessorUi() {
+        System.out.println("test2");
         initComponents();
     }
 
