@@ -41,6 +41,7 @@ public class PdfCreator {
     public static void createPdf(String content, String fileName) {
         System.out.println("PR2");
         System.out.println("creating pdf");
+        System.out.println("test4");
         System.out.println("test2");
         System.out.println("test3");
         try {
