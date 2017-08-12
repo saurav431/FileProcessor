@@ -63,6 +63,7 @@ public class PdfCreator {
         document.addKeywords("Java, PDF, iText");
         document.addAuthor("Lars Vogel");
         document.addCreator("Lars Vogel");
+        System.out.println("test3");
     }
 
     private static void addContent(Document document, String content)
